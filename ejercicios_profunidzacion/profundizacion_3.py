@@ -38,3 +38,9 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+nombre_completo = str(input("Ingrese Nombre completo: "))
+
+print("Nombre completo:", nombre_completo.lower()) # Nombre en minisculas
+print("Nombre completo:", nombre_completo.upper()) # Nombre en mayusculas
+print("Nombre completo:", nombre_completo.capitalize()) # Nombre con primera letra en mayuscula

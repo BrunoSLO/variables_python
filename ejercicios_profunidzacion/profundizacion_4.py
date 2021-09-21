@@ -45,3 +45,10 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+padre = str(input("Ingrese nombre completo del padre: "))
+madre = str(input("Ingrese nombre completo de la madre: "))
+hijo = str(input("Ingrese nombre del hijo: "))
+
+apellido1 = (padre.split(" "))
+apellido2 = (madre.split(" "))
+print("nombre completo hijo:", hijo, apellido1[-1], apellido2[-1])
