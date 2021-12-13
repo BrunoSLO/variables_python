@@ -42,6 +42,12 @@ https://www.pythonforbeginners.com/dictionary/python-split
 
 Cualquier duda con el método split pueden consultarla por el campus
 '''
+# Ejemplo de google
+x = "blue,red,green"
+x.split(",")
+ 
+a,b,c = x.split(",")
+print(b) # Imprime color azul
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
@@ -52,3 +58,8 @@ hijo = str(input("Ingrese nombre del hijo: "))
 apellido1 = (padre.split(" "))
 apellido2 = (madre.split(" "))
 print("nombre completo hijo:", hijo, apellido1[-1], apellido2[-1])
+
+# Otra forma
+a,b = padre.split()
+a,c = madre.split()
+print("nombre completo hijo:", hijo, b, c)

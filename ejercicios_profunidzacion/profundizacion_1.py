@@ -35,12 +35,16 @@ print('¡Nuestra primera calculadora!')
 numero_1 = 2
 numero_2 = 3
 suma = numero_1 + numero_2
-print("el resultado de la suma es", suma)
+print("el resultado de la suma es", suma) # Suma de numeros
+
 resta = numero_1 - numero_2
-print("el resultado de la resta es", resta)
+print("el resultado de la resta es", resta) # Resta de numeros
+
 multiplicacion = numero_1 * numero_2
-print("el resultado de la multiplicacion es", multiplicacion)
+print("el resultado de la multiplicacion es", multiplicacion) # Multiplicacion de numeros
+
 division = numero_1 / numero_2
-print("el resultado de la division es", division)
+print("el resultado de la division es", division) # Division de numeros
+
 potencia = numero_1 ** numero_2
-print("el resultado de la potencia es", potencia)
+print("el resultado de la potencia es", potencia) # Potencia de numeros

@@ -41,6 +41,11 @@ print('Ahora si! buena suerte')
 
 nombre_completo = str(input("Ingrese Nombre completo: "))
 
+stringlow = nombre_completo.islower() # Dice si la palabra esta toda en minuscula
+print("¿la palabra esta toda en minuscula?", stringlow)
+stringup = nombre_completo.isupper() # Dice si la palabra esta toda en mayuscula
+print("¿la palabra esta toda en mayuscula?", stringup)
+
 print("Nombre completo:", nombre_completo.lower()) # Nombre en minisculas
 print("Nombre completo:", nombre_completo.upper()) # Nombre en mayusculas
 print("Nombre completo:", nombre_completo.capitalize()) # Nombre con primera letra en mayuscula
