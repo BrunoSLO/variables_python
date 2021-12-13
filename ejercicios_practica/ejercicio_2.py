@@ -28,13 +28,13 @@ numero_2 = int(input())
 
 # Suma
 suma = numero_1 + numero_2
-print("el resultado es de la suma es", suma)
+print("el resultado de la suma es", suma)
 # Resta
 resta = numero_1 - numero_2
-print("el resultado es de la resta es", resta)
+print("el resultado de la resta es", resta)
 # División
 division = numero_1 / numero_2
-print("el resultado es de la division es", division)
+print("el resultado de la division es", division)
 # Multiplicación
 multiplicacion = numero_1 * numero_2
-print("el resultado es de la multiplicacion es", multiplicacion)
+print("el resultado de la multiplicacion es", multiplicacion)

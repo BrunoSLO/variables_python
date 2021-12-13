@@ -26,12 +26,12 @@ print(apellido)
 # nombre_completo = .....
 
 nombre_completo = nombre + " " + apellido
-print("mi nombre es", nombre_completo)
+print("mi nombre es:", nombre_completo)
 
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
 
 cantidad_letras = len(nombre_completo)
-print("cantidad de letras", cantidad_letras)
+print("La cantidad de letras es:", cantidad_letras)
 
 
